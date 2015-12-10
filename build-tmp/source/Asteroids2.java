@@ -42,8 +42,8 @@ public void draw()
   if(up){bob.accelerate(.1f);}
   if(left){bob.rotate(-5);}
   if(right){bob.rotate(5);}
-  for(int i=0;i<li.length;i++)
-    li[i].show();
+  // for(int i=0;i<li.length;i++)
+  // li[i].show();
   for(int i=0;i<ling.length;i++)
   {
     ling[i].move();
